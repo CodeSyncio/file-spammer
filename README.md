@@ -1,6 +1,6 @@
 # file-spammer
 
-### this tool used to spam a bunch of files.
+### this tool is used to spam a bunch of files.
 
 ## how to install:
 download one of the releases if u want to use an `.exe` version if u dont want to run it with python, or the target computer does'nt have python.<br />
