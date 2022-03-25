@@ -1,41 +1,34 @@
 import os
 from time import sleep as s
-def cls():
+def c():
     os.system('cls' if os.name=='nt' else 'clear')
 print('Made by me, use this wisely, and no, its not made for educational perposes :)')
 print('starting in 5 seconds...')
 s(5)
-cls()
+c()
 print('File Name?')
 fn=input()
-cls()
+c()
 print('Text inside files?')
 fin=input()
-cls()
+c()
 print('Extension of spam files?')
 ex=input()
-cls()
+c()
 print('Amount of spam files?')
 am=input()
-cls()
+c()
 ln=0
 while int(ln)<int(am):
     print('Creating files ('+(str(ln))+' / '+(str(am)))
     file=open (fn+'_________'+(str(ln))+'.'+ex ,"w")
     file.write(str(fin))
     ln=ln+1
-print('DONE, quitting in 5 sec...')
+print('DONE')
 s(1)
-cls()
-print('quitting in 4sec...')
-s(1)
-cls()
-print('quitting in 3sec...')
-s(1)
-cls()
-print('quitting in 2sec...')
-s(1)
-cls()
-print('quitting in 1sec...')
-s(1)
-cls()
+c()
+ca = 5
+for number in range(5):
+    print ('quitting in '+ str(ca)+  ' sec...')
+    s(1)
+    ca = ca -1
